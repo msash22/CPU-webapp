@@ -20,7 +20,8 @@ function CpuList() {
                         <Link to={`/cpu/${cpu.id}`}><button>Edit</button></Link>
                     </div>
                 ))}
-                <Link to="/cpu/new"><button>Add CPU</button></Link>
+                    <Link to="/cpu/new"><button style={{ marginRight: '10px' }}>Add CPU</button></Link>
+                    <Link to="/socket/new"><button>Add Socket</button></Link>
             </div>
         </div>
     );
