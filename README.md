@@ -40,7 +40,7 @@ Make sure you have installed:
 4. Build the backend:
 
     ```bash
-    mvn spring-boot:run
+    ./mvnw spring-boot:run
     ```
 ## 🌍 Frontend Setup
 1. Go to the frontend directory:
